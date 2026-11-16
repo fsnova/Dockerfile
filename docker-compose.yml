@@ -1,0 +1,7 @@
+version: '3'
+services:
+  app:
+    image: ghcr.io/mhsanaei/3x-ui:latest
+    restart: always
+    ports:
+      - "2053:2053"
